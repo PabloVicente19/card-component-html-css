@@ -28,7 +28,7 @@ body{
 /* Contenedo global de la card */
 .card-container{
   width: 90%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: grid;
   grid-column: 1fr;
   grid-template-rows: 1fr auto;
