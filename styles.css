@@ -36,7 +36,10 @@ body{
 .card-img{
   width: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+  border-start-start-radius: 8px;
+  border-start-end-radius: 8px;
+
 
 }
 /* Texto de la card */
@@ -46,7 +49,10 @@ body{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  
 }
 .card-category{
   text-transform: uppercase;
@@ -101,7 +107,7 @@ body{
 .card-add-cart:hover{
   background-color: var(--VeryDarkBlue);
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width:650px) {
   .card-container{
     padding: 50px;
     max-width: 800px;
